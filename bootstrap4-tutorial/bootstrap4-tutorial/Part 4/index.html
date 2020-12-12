@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+<div class="jumbotron jumbotron-fluid bg-light" style="margin-bottom:0">
+  <div class="container">
+    <h1 class="display-4"> Wyatt Earp's Apps</h1>
+    <p class="lead"> Yeeeee Haw!!!  Welcome to Our App Store with best dog gone Apps in the Whole Wide World.. Yeeee Haww!!</p>
+    <hr class="my-4">
+    <p>Chat with us Today and Learn all about our Wonderful Products</p>
+    <p class="lead">
+    <a class="btn btn-dark btn-lg" href="#" role="button">Go On Hit the Yeee 'Olde Button </a>
+  </div>
+</div>
+
+
+<!-- now lets make the navbar collapse to a hamburger bar on the mobile version -->
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+
+<!-- we are just using the default positioning... although you can
+  look here for other classes for positioning the navbar
+  https://getbootstrap.com/docs/4.0/utilities/position/
+-->
+
+  <div class="container">
+    <a class="navbar-brand" href="#">
+
+<!-- we changed the mustache to white and made the size a lot smaller
+  instead of changing the size -->
+
+          <img src="img/mustache-white.png" alt="">
+        </a>
+
+<!-- here is some code for the navbar toggler... a built in javascript
+  function for the navbar. 
+  https://getbootstrap.com/docs/4.0/components/navbar/#toggler -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+
+
+<!-- aria controls is a relationship attribute that tells the association
+  of the interactive relationship -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+              </a>
+<!-- sr only means screen reader only -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+</body>
+</html>
+
