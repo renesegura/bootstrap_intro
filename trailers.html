@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro to Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <style>
+    .jumbo {
+      background-image: url('./img/StarWarsBanner_hi.jpg');
+      background-size: contain;
+    }
+    .jumbotron {
+      padding: 20px !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid jumbo" style="margin-bottom:0">
+    <div class="container">
+      <hr class="my-0">
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #ffbf19;">
+    <a class="navbar-brand" href="#">
+      <img src="img/StarWars_hi.png" alt="Logo" style="width:40px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutMe.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="trailers.html">Trailers</a>
+      </li>
+    </ul>
+  </nav>
+  <hr class="my-4">
+  
+  <div class="container" style="margin-top:20px">
+    <div class="row">
+      <div class="col-sm-12 mx-auto text-center mb-5">
+        <h1> Trailers from a galaxy far far away... </h1>
+      </div>
+      <div class="col-sm-6 mx-auto mb-4 ">
+        <iframe width="260" height="215" src="https://www.starwars.com/embed/5b626c5030fe5ebd6b4f2a72" frameborder="0"
+          allowfullscreen scrolling="no"></iframe><br />
+          </iframe>
+          <a class="btn btn-primary" href="https://www.starwars.com/video/sizzle-andor" role="button">Sizzle - Andor</a>
+      </div>
+      <div class="col-sm-6 mx-auto mb-4 ">
+        <iframe width="260" height="215" src="https://www.starwars.com/embed/5b6269ca4044aebd6b4f2a72" frameborder="0"
+          allowfullscreen scrolling="no"></iframe><br />
+          <a class="btn btn-primary" href="https://www.starwars.com/video/sizzle-the-bad-batch" role="button">Sizzle -
+          The Bad Batch</a>
+      </div>
+      <div class="col-sm-6 mx-auto mb-4 ">
+        <iframe width="260" height="215" src="https://www.starwars.com/embed/5af4f61ebec4bebd6b4f2a72" frameborder="0"
+          allowfullscreen scrolling="no"></iframe><br />
+          <a class="btn btn-primary" href="https://www.starwars.com/video/the-mandalorian-season-2-official-trailer" role="button">Season 2 Trailer - The
+          Mandalorian</a>
+      </div>
+      <div class="col-sm-6 mx-auto mb-4 ">
+        <iframe width="260" height="215" src="https://www.starwars.com/embed/5a44e078cd2b2ebd6b4f2a72" frameborder="0"
+          allowfullscreen scrolling="no"></iframe><br />
+          <a class="btn btn-primary" href="https://www.starwars.com/video/inside-the-final-duel-maul-vs-ahsoka-star-wars-the-clone-wars" role="button">Inside the Final
+          Duel: Maul Vs. Ahsoka</a>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+  <div class="jumbotron text-center footer" style="margin-top: 0">
+    <p>Help me, Obi-Wan Kenobi. You're my only hope. <br> Locate me @:<a href="mailto:r2d2@starwars.com">
+        r2d2@starwars.com</a> </p>
+  </div>
+  <hr class="my-0">
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+  </html>
